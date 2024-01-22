@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Call Contract</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+        type="application/javascript"></script>       
+        
+    </head>
+
+    <body>
+        <h1>Show the number</h1>
+        <p>some content</p>
+        <button id="getInfo"> get the smart contract info </button>
+        <p id="showResult">show result</p>
+        
+
+        <input type="text" id="setNumber">
+
+        <button id="UpdateNumber">update the blockchain number</button>
+
+        
+        <h1>Play Rock Paper Scissors</h1>
+        
+        <p id="showResult">Queue and wait for game start</p>
+        <br>
+        <button id="playGame">Play</button>
+        <p id="showPlayer"></p>
+
+
+        <p id="">Choose your option</p>
+        <form>
+            <label>
+            <input type="radio" name="options1" value="1"> Rock
+            </label>
+            <br>
+            <label>
+            <input type="radio" name="options1" value="2"> Paper
+            </label>
+            <br>
+            <label>
+            <input type="radio" name="options1" value="3"> Scissors
+            </label>
+            <br>
+            <button type="button" id="submitOption">Submit You Option</button>
+        </form>
+        
+
+        <p id="finalResult"></p>
+
+
+
+        <h1>Play Rock Paper Scissors (Pool version)</h1>  
+        <p id="CurrentNumberofPool">6</p> 
+        <input type="number" id="NumberofPool" >
+        <button id="UpdateNumberofPool">update max number of pool</button>
+        <p>Player in the pool</p>
+        <textarea id="showPoolPlayer" readonly rows="10" cols="50"></textarea>
+        <br>
+        <button id="getPoolInfo">Get pool info</button>
+        <br>
+        <form>
+            <label>
+            <input type="radio" name="options" value=1> Rock
+            </label>
+            <br>
+            <label>
+            <input type="radio" name="options" value=2> Paper
+            </label>
+            <br>
+            <label>
+            <input type="radio" name="options" value=3> Scissors
+            </label>
+            <br>
+            <button type="button" id="submitPoolOption">Play</button>
+        </form>
+        <br>
+        <p id="displayResult"></p>
+        <br>
+        <button id="getPoolResult">Get pool result info</button>
+        <br>
+
+
+
+
+
+        <script src="index.js"></script>
+        <script src="wait2user.js"></script>
+        <script src="pool.js"></script>
+    </body>
+</html>
